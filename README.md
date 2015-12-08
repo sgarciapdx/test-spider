@@ -1,8 +1,8 @@
 # test-spider
 
-This spider is set up to work with the VMs provided in the scrapy-vagrant repo. The web VM in that
-repo should have an xkcd archive set up in `/vagrant/web/html`. This spider is set up to begin from
-the most recent page contained in the archive and continually scrape the pages pointed to by the
+This spider is set up to work with the VMs provided in the [scrapy-vagrant](https://github.com/PDX-Capstone-Team-C/scrapy-vagrant)
+repo. The web VM in that repo should have an xkcd archive set up in `/vagrant/web/html`. This spider is set up
+to begin from the most recent page contained in the archive and continually scrape the pages pointed to by the
 'Previous' links until it reaches the end of the archive.
 
 # First-time setup
